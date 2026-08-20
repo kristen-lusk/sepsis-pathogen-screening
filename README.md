@@ -101,6 +101,8 @@ Within this targeted panel, several samples showed substantially larger
 interpreted as **screening signals that warrant further validation**, not evidence of a
 clinical diagnosis.
 
+All ten samples contained exactly 100,000 sequencing reads. As a result, the raw unique read-species counts are numerically equivalent to hits normalized per 100,000 reads in this dataset. Both files are retained to preserve the original analysis workflow and demonstrate the normalization step used by the pipeline.
+
 Important limitations include:
 
 - the reference panel is targeted rather than comprehensive;
@@ -124,7 +126,7 @@ validation.
 - Python package in `requirements.txt` for figure generation
 
 The exact BLAST+ version used during the original coursework was not recorded; that is
-a reproducibility limitation of the historical project. For new runs, record
+a reproducibility limitation of the project. For new runs, record
 `blastn -version` alongside the results.
 
 ### 1. Create a Python environment
@@ -149,7 +151,7 @@ blastn -version
 
 works from your terminal.
 
-### 2. Add authorized input FASTA files
+### 2. Add input FASTA files
 
 Place the ten original inputs in `data/raw/` as described in
 [`data/README.md`](data/README.md).
@@ -228,17 +230,11 @@ python src/plot_results.py
 ```
 
 ## Portfolio cleanup from the original coursework
-
 The public version intentionally standardizes terminology and removes redundant files:
 
 - `person_N` is presented as `sample_N` in public outputs;
-- “bacteria” is replaced with “pathogen” when the panel includes *Candida albicans*;
-- the BLAST threshold is described correctly as an **E-value**, not a p-value;
-- all seven BLAST output fields are documented;
 - the unused local-BLAST-database build step was removed because the archived analysis
-  used BLAST `-subject` mode;
-- species mapping is driven by an explicit accession manifest rather than fragile
-  text matching in FASTA descriptions; and
+  used BLAST `-subject` mode; and
 - intermediate TSV/SAM/BAM files and raw sequencing reads are omitted from the
   public repository.
 
