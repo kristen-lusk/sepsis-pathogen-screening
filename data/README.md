@@ -3,7 +3,7 @@
 The original course project used ten blood-derived sequencing FASTA files named
 `person_1.fasta` through `person_10.fasta`, with 100,000 reads per sample.
 
-Those raw sequencing files are **not distributed in this public portfolio repository**.
+Those raw sequencing files are not distributed in this public portfolio repository.
 Redistribution permission/provenance for the course-provided sequence data was not
 established during portfolio preparation, so the repository intentionally contains only
 code, reference accessions, compact summary results, and figures.
