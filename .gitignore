@@ -1,0 +1,22 @@
+# Raw sequencing inputs
+data/raw/
+*.fastq
+*.fastq.gz
+
+# Downloaded/generated reference sequences
+refs/*.fasta
+refs/*.fa
+
+# Intermediate BLAST outputs
+results/blast/
+
+# Local Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
