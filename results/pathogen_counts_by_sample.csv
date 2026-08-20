@@ -1,0 +1,14 @@
+species,sample_1,sample_2,sample_3,sample_4,sample_5,sample_6,sample_7,sample_8,sample_9,sample_10
+Escherichia coli,0,0,0,0,0,0,0,0,0,0
+Klebsiella pneumoniae,0,0,0,0,0,0,0,0,0,0
+Pseudomonas aeruginosa,0,0,0,0,1,0,1,0,1,0
+Staphylococcus aureus,0,0,0,1,0,0,0,0,0,0
+Streptococcus pneumoniae,0,0,0,0,0,0,0,0,0,0
+Candida albicans,1395,35,1127,931,1149,48,75,1090,61,16
+Enterobacter cloacae,0,0,0,0,0,0,0,0,1,0
+Enterococcus faecium,0,0,0,0,0,0,0,1,0,0
+Neisseria meningitidis,0,0,0,0,0,0,0,0,0,0
+Salmonella enterica,0,0,0,0,0,0,0,0,1,0
+Serratia marcescens,0,0,0,0,1,0,1,0,1,1
+Staphylococcus epidermidis,0,0,0,0,0,0,0,0,0,0
+Stenotrophomonas maltophilia,0,0,0,2,1,0,0,1,1,0
