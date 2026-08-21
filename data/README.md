@@ -5,8 +5,7 @@ The original course project used ten blood-derived sequencing FASTA files named
 
 Those raw sequencing files are not distributed in this public portfolio repository.
 Redistribution permission/provenance for the course-provided sequence data was not
-established during portfolio preparation, so the repository intentionally contains only
-code, reference accessions, compact summary results, and figures.
+established, so the repository intentionally contains only code, reference accessions, compact summary results, and figures.
 
 To reproduce the analysis with authorized copies of the original inputs, place them in:
 
@@ -20,6 +19,3 @@ data/raw/
 
 The public-facing scripts convert the original `person_N` filenames to `sample_N`
 identifiers in generated tables and figures.
-
-Do not commit raw sequencing files to the repository unless you have confirmed that
-you are permitted to redistribute them.
